@@ -20,7 +20,7 @@ print(m)
 #获取封面 of 书
 cover  = diver.find_element_by_xpath("/html/body/div[4]/div[2]/div[1]/img")
 link = cover.get_attribute("src")
-filed = open("readme.html","w+")
+filed = open("novels/dir.html","w+")
 filed.writelines('''<html>
 <head>
     <title>
@@ -48,11 +48,25 @@ for i in range(1,10):
     <title>
         我的师兄太稳健了.目录
     </title>
-    
+       <style>
+        .put{
+            font-weight: 400;
+            color: #333;
+            -webkit-font-smoothing: subpixel-antialiased;
+            zoom: 1;
+            margin: 0;
+            padding: 10px 30px;
+            line-height: 200%;
+            font-size: 20px;
+            border-top: 1px dashed #CCC;
+            border-bottom: 1px dashed #CCC;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body >
 <p>
-<pre>
+<pre class ="put">
     ''')
     filed.write('''
     <button>
@@ -85,9 +99,10 @@ for i in range(1,10):
 print('That is all thank you for using me []~(￣▽￣)~*')
 filed.write(str(mid))
 filed.writelines('''
-
+</pre>
 </p>
 </body>
 </html>
 ''')
 diver.close()
+

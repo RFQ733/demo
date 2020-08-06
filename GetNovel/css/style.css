@@ -2,17 +2,43 @@ li{
 	LIST-STYLE-TYPE: none;
 }
 BODY {
-	margin:0 auto;font-family:"Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;font-weight:400;color:#333;font-size:14px;-webkit-font-smoothing: subpixel-antialiased;-moz-osx-font-smoothing: auto;background-color:#E9FAFF;
+	margin:0 auto;
+	font-family:"Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+	font-weight:400;color:#333;font-size:14px;
+	-webkit-font-smoothing: subpixel-antialiased;
+	moz-osx-font-smoothing: auto;
+	background-color:#E9FAFF;
 }
 
-div,ul,dl,dd,p,h1,h2,h3,h4,.text{zoom:1; margin:0;padding:0;}
-a {color:#333; text-decoration:none; }
-a:hover {color:#FD5500;text-decoration:underline; }
-img{border:none;}.clear{zoom:1;margin-bottom:10px;}
+div,ul,dl,dd,p,h1,h2,h3,h4,.text{
+	 zoom:1;
+	 margin:0;
+	 padding:0;
+	}
+a {
+	color:#333; 
+	text-decoration:none;
+ }
+a:hover {
+	color:#FD5500;
+	text-decoration:underline;
+ }
+img{
+	border:none;
+}.clear{
+	zoom:1;
+	margin-bottom:10px;
+}
 
-.wrap,.nav ul,.nav_type ul{width:980px;margin:0 auto;zoom:1;overflow:hidden;}
-/*鎵樼洏0078B6*/
-.header{padding:20px 0 10px;}
+.wrap,.nav ul,.nav_type ul{
+	width:980px;
+	margin:0 auto;
+	zoom:1;
+	overflow:hidden;
+}
+.header{
+	padding:20px 0 10px;
+}
 .header .wrap{position:relative;height:70px;overflow:hidden;}
 .wrap .logo{float:left;margin-right:20px;padding-right:20px;xborder-right:1px solid #ddd;overflow:hidden;display:block;}
 .wrap .logo a{background:url(/images/logo.gif) no-repeat;display:block;float:left;height:70px;text-indent:-9999px;width:250px;}
